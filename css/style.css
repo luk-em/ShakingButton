@@ -1,0 +1,63 @@
+button {
+    position: absolute;
+    top: 10vh;
+    right: 10vw;
+    border: 3px solid black;
+    padding: 20px 40px;
+    background-color: crimson;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 50px;
+    color: white;
+    animation: buttonshaking 3s linear infinite;
+}
+
+@keyframes buttonshaking {
+    0% {
+        transform: translateX(0);
+    }
+
+    90% {
+        transform: translateX(0)
+    }
+
+    91% {
+        transform: translateX(25px)
+    }
+
+    92% {
+        transform: translateX(-25px)
+    }
+
+    93% {
+        transform: translateX(25px)
+    }
+
+    94% {
+        transform: translateX(-25px)
+    }
+
+    95% {
+        transform: translateX(25px)
+    }
+
+    96% {
+        transform: translateX(-25px)
+    }
+
+    97% {
+        transform: translateX(25px)
+    }
+
+    98% {
+        transform: translateX(-25px)
+    }
+
+    99% {
+        transform: translateX(25px)
+    }
+
+    100% {
+        transform: translate(-25px)
+    }
+}
